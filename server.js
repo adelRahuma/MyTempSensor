@@ -4,7 +4,7 @@ const mysql = require("mysql2/promise"); // Using promise-based MySQL
 const cors = require("cors");
 
 const app = express();
-const port = process.env.PORT || 3000; // Use the specified port in the environment or default to 3000
+const port =  3000; // Use the specified port in the environment or default to 3000
 
 const pool = mysql.createPool({
   host: process.env.HOST,
